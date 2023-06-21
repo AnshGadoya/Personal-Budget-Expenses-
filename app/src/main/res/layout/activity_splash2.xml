@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/money"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Splash2">
+
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaalight"
+        android:text="WELCOME!!"
+        android:textColor="#FF9100"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/akaya_telivigala" />
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaalight"
+        android:text="Welcome to the Personal Budgeting App "
+        android:textColor="#FF9100"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#FFC400"
+            android:fontFamily="@font/comfortaalight"
+            android:textSize="22dp"
+            android:text=" Before Visit the app Please Login!!"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/comfortaabold"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:text="Sign In"
+        app:cornerRadius="10dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signupbtn"
+        android:layout_width="144dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#000"
+        android:fontFamily="@font/comfortaabold"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:text="Sign Up"
+        app:cornerRadius="10dp" />
+
+
+</LinearLayout>
